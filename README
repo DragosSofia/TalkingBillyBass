@@ -1,0 +1,13 @@
+Codul de python:
+ - preia audioul de la o sursa de intreare
+ - transforma inputul intr-un fisier .wav
+ - fisier care va fi analizat de algoritmul de inteligenta artificiala
+ - daca rezultatul este peste un treshhold vom comunica cu arduino ca am gasit voce,
+ in caz contrar trimitem un semnal care confirma lipsa vocii
+
+Coudul de python poate fi rulat cu urmatoarea comanda:
+    python3 cobra.py --access_key JKgNo9I3SIL2mUyHrzqbqu/y+CVajkoxzfhSIEiVczKPK3tWTADPNQ==
+
+Precizari:
+    Codul de python asteapta ca arduino sa fie connectat pe COM3
+    In cazul rularii pe windows trebuie modificare setarile de smart buffering pe COM3 pentru a rula
